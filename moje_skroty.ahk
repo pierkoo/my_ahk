@@ -145,15 +145,15 @@ F5::
 }
  
  
+
+
 #HotIf WinActive('moje_skroty.ahk')
 F5::
 {
-    Run "C:\ProgramData\AutoHotKey\AutoHotkey_2.0.10\moje_skroty.exe"
-
-
+    Run "D:\Pobrane\AutoHotkey_2.0.10\moje_skroty.exe" ; komp dom
+    Run "C:\ProgramData\AutoHotKey\AutoHotkey_2.0.10\moje_skroty.exe" ; komp praca 
 }
  
-#HotIf
 
 
 
