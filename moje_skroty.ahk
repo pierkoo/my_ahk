@@ -9,37 +9,37 @@
 
 
 
-F13::
-{
-if WinExist("ahk_exe msedge.exe")
-    WinActivate ; Use the window found by WinExist.
-else
-    Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk"
-}
+; F13::
+; {
+; if WinExist("ahk_exe msedge.exe")
+;     WinActivate ; Use the window found by WinExist.
+; else
+;     Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk"
+; }
 
-F14::
-{
-if WinExist("ahk_exe OUTLOOK.EXE")
-    WinActivate ; Use the window found by WinExist.
-else
-    Run "C:\Users\piotr.szlaski\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Outlook.lnk"
-}
+; F14::
+; {
+; if WinExist("ahk_exe OUTLOOK.EXE")
+;     WinActivate ; Use the window found by WinExist.
+; else
+;     Run "C:\Users\piotr.szlaski\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Outlook.lnk"
+; } 
 
-F15::
-{
-if WinExist("ahk_exe Teams.exe")
-    WinActivate ; Use the window found by WinExist.
-else
-    Run "C:\Users\piotr.szlaski\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams classic.lnk"
-}
+; F15::
+; {
+; if WinExist("ahk_exe Teams.exe")
+;     WinActivate ; Use the window found by WinExist.
+; else
+;     Run "C:\Users\piotr.szlaski\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams classic.lnk"
+; }
 
-F16::
-{
-if WinExist("ahk_exe sqldeveloper.exe")
-    WinActivate ; Use the window found by WinExist.
-else
-    Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle SQL Developer 17.3\Sql Developer 17.3.lnk"
-}
+;F16::
+;{
+;if WinExist("ahk_exe sqldeveloper.exe")
+;    WinActivate ; Use the window found by WinExist.
+;else
+;    Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle SQL Developer 17.3\Sql Developer 17.3.lnk"
+;}
 
 ;F20::
 ;{
@@ -288,17 +288,18 @@ ScrollDownMore() {
 
 
 
-  F21:: ScrollDown()
-  F17:: ScrollUp()
+  F20:: ScrollDown()
+  F18:: ScrollUp()
   ;v:: Drag()
 
   F19:: Return
   F22:: Return
   F23:: Return
-  F24:: Return
+  F24:: Return 
  
 
-  F18:: MouseLeft()
-  F20:: MouseRight()
+  F14:: MouseLeft()
+  F13:: MouseRight()
+  F16:: MouseMiddle()
 
 
