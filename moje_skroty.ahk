@@ -70,8 +70,8 @@ else
 
 
 
-F19::#^Left
-F20::#^Right
+;F19::#^Left
+;F20::#^Right
 
 
 
@@ -151,11 +151,11 @@ F5::
 F5::
 {
     Run "D:\Pobrane\AutoHotkey_2.0.10\moje_skroty.exe" ; komp dom
-    Run "C:\ProgramData\AutoHotKey\AutoHotkey_2.0.10\moje_skroty.exe" ; komp praca 
+  ; Run "C:\ProgramData\AutoHotKey\AutoHotkey_2.0.10\moje_skroty.exe" ; komp praca 
 }
  
 
-
+#HotIf
 
 
 global INSERT_MODE := false
